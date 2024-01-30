@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flaeming"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Ana Paulino-Afonso"},
+    {email = "asofiafonso@gmail.com"}
+    ]
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "black",
+    "isort",
+    "flake8",
+]
+
+[tool.setuptools.packages.find]
+where = ["flaeming"]
+include = ["flaeming/flaeming*"]
+exclude = ["flaeming/tests*"]
+
+[tool.isort]
+profile = "black"
+lines_after_imports = 2
+
+[tool.darglint]
+strictness = "long"
+
+[tool.coverage.paths]
+source = ["flaeming/flaeming"]
+tests = ["flaeming/tests", "*/tests"]
+
+[tool.coverage.run]
+branch = true
+source = ["flaeming/flaeming", "flaeming/tests"]
+omit = ["tests", "*/tests"]
+
+[tool.coverage.report]
+show_missing = true
+exclude_lines = ["if __name__ == .__main__.:", "_cmd"]
+

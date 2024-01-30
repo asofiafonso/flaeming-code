@@ -1,0 +1,53 @@
+folder: /home/aafonso/data
+
+#! IMPORTANT NOTE - filter names must not include '_' or '-'
+images:
+  acs_mosaic_2.0: 
+    i: tiles/acs*sci.fits.gz 
+  candels:
+    R: hlsp_candels_hst_acs_cos-tot_f606w_v1.0_drz.fits
+    i: hlsp_candels_hst_acs_cos-tot_f814w_v1.0_drz.fits
+    J: hlsp_candels_hst_wfc3_cos-tot_f125w_v1.0_drz.fits
+    H: hlsp_candels_hst_wfc3_cos-tot_f160w_v1.0_drz.fits
+  cfht:
+    u: mosaics/COSMOS.u.original_psf.v5.fits
+    i: mosaics/COSMOS.i_c.original_psf.v2.fits
+    H: mosaics/COSMOS.H.original_psf.v1.fits
+    Ks: mosaics/COSMOS.Ks.original_psf.v5.fits
+  kpno:
+    Ks: mosaics/COSMOS.Ks.matched-psf.v3.fits
+  spitzer:
+    ch1: irac/irac_ch1_go2_sci_10.fits
+    ch2: irac/irac_ch2_go2_sci_10.fits
+    ch3: irac/irac_ch3_go2_sci_10.fits
+    ch4: irac/irac_ch4_go2_sci_10.fits
+  subaru:
+    B: mosaics/COSMOS.B.original_psf.v2.fits
+    g: mosaics/COSMOS.gp.original_psf.v2.fits
+    IA427: mosaics/COSMOS.IA427.original-psf.v1.fits
+    IA464: mosaics/COSMOS.IA464.original-psf.v1.fits
+    IA484: mosaics/COSMOS.IA484.original-psf.v1.fits
+    IA505: mosaics/COSMOS.IA505.original-psf.v1.fits
+    IA527: mosaics/COSMOS.IA527.original-psf.v1.fits
+    IA574: mosaics/COSMOS.IA574.original-psf.v1.fits
+    IA624: mosaics/COSMOS.IA624.original-psf.v1.fits
+    IA679: mosaics/COSMOS.IA679.original-psf.v1.fits
+    IA709: mosaics/COSMOS.IA709.original-psf.v1.fits
+    IA738: mosaics/COSMOS.IA738.original-psf.v1.fits
+    IA767: mosaics/COSMOS.IA767.original-psf.v1.fits
+    IA827: mosaics/COSMOS.IA827.original-psf.v1.fits
+    i:  mosaics/COSMOS.ip.original_psf.v2.fits
+    NB711: mosaics/COSMOS.NB711.original-psf.v1.fits
+    NB816: mosaics/COSMOS.NB816.original_psf.v2.fits
+    r: mosaics/COSMOS.rp.original_psf.v2.fits
+    V: mosaics/COSMOS.V.original_psf.v2.fits
+    zold: mosaics/COSMOS.zp.original_psf.v2.fits
+    z: mosaics/COSMOS.zpp.original_psf.v1.fits
+  ukirt:
+    J: mosaics/COSMOS.J.original-psf.v1.fits
+  uvista:
+    Y: UVISTA_Y_19_11_18_allpaw_skysub_015_dr4_rc_v2.fits
+    J: UVISTA_J_19_11_18_allpaw_skysub_015_dr4_rc_v2.fits
+    H: UVISTA_H_19_11_18_allpaw_skysub_015_dr4_rc_v2.fits
+    Ks: UVISTA_Ks_19_11_18_allpaw_skysub_015_dr4_rc_v2.fits
+    NB118: UVISTA_NB118_19_11_18_allpaw_skysub_015_dr4_rc_v2.fits
